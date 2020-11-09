@@ -84,9 +84,10 @@ h3#x {
     color: #333333;
 }
 h3#y {
+    position: absolute;
+    right: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    min-width: 20vh;
+    min-height: 20vh;
 }
