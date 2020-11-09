@@ -1,8 +1,8 @@
 const calc = document.getElementById('calc');
 
 calc.addEventListener('click', () => {
-    const n1 = document.getElementById('n1').value;
-    const n2 = document.getElementById('n2').value;
+    const n1 = Number(document.querySelector('input#n1').value);
+    const n2 = Number(document.querySelector('input#n2').value);
     const op = document.getElementById('operadores').value;
     const x = document.querySelector('#x');
 
@@ -21,5 +21,9 @@ calc.addEventListener('click', () => {
     } else {
         x.innerHTML = '<strong>Selecione uma operação.</strong> <br><br> <img src="img/facepalm.png"/>'
     }
+
+    document.getElementById('n1').value = '';
+    document.getElementById('n2').value = '';
+    document.getElementById('n1').focus();
 });
 
