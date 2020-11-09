@@ -78,12 +78,12 @@ h1 {
     text-shadow: .5px .5px 0 #000, -.5px -.5px 0 #000, -.5px .5px 0 #000, .5px -.5px 0 #000;
     cursor: not-allowed;
 }
-#x {
+h3#x {
     margin: 25px 10px;
     font-size: 22px;
     color: #333333;
 }
-.y {
+h3#y {
     display: flex;
     justify-content: center;
     align-items: center;
