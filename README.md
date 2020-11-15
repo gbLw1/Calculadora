@@ -1,4 +1,17 @@
 # Calculadora
- calculadora em HTML + CSS + JS
+## HTML + CSS + JS
 
- Brawlhalla style
+ __*Brawlhalla style*__
+
+***
+
+  Operadores  | Simbolo
+  :--------   | :------:
+Adição        | +
+Subtração     | -
+Multiplicação | *
+Divisão       | /
+
+---
+
+`printf('Appreciate it, mate!')`
