@@ -3,8 +3,6 @@
 
  __*Brawlhalla style*__
 
-***
-
   Operadores  | Simbolo
   :--------   | :------:
 Adição        | +
@@ -14,7 +12,11 @@ Divisão       | /
 
 ---
 
-* Me siga:
-   * [Steam](https://steamcommunity.com/id/gblw1/)
+* __Me siga__:
+   * _[Steam](https://steamcommunity.com/id/gblw1/)_
+   * _[Instagram](https://www.instagram.com/gblw1/)_
    
+***
+
 `printf('Appreciate it, mate!');` :thumbsup:
+
