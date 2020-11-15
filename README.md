@@ -14,4 +14,7 @@ Divisão       | /
 
 ---
 
-`printf('Appreciate it, mate!')`
+* Me siga:
+   * [Steam](https://steamcommunity.com/id/gblw1/)
+   
+`printf('Appreciate it, mate!');` :thumbsup:
