@@ -1,7 +1,8 @@
 # Calculadora
 ## HTML + CSS + JS
 
- __*Brawlhalla style*__
+- [x] __*Brawlhalla style*__
+---
 
   Operadores  | Simbolo
   :--------   | :------:
@@ -20,3 +21,4 @@ Divisão       | /
 
 `printf('Appreciate it, mate!');` :thumbsup:
 
+![cake](https://user-images.githubusercontent.com/73954686/99199565-d18d6800-277e-11eb-8237-97afa9b3d703.gif)
