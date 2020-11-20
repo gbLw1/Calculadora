@@ -58,9 +58,9 @@ function calc() {
         x.innerHTML = '<strong>Selecione uma operação.</strong> <br><br> <img src="img/facepalm.png"/>'
     }
 
-    n1.value = '';
-    n2.value = '';
-    n1.focus();
+    document.getElementById('n1').value = '';
+    document.getElementById('n2').value = '';
+    document.getElementById('n1').focus();
 }
 
 function check(x) {

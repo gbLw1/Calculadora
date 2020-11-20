@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
 body {
-    font: normal 1rem arial;
+    font: normal 1rem 'Open Sans', sans-serif;
     background-color: #CECECE;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    letter-spacing: 1.2px;
+    color: #333333;
+    text-shadow: .5px .5px 0 #000, -.5px -.5px 0 #000, -.5px .5px 0 #000, .5px -.5px 0 #000;
+    cursor: not-allowed;
 }
 
 .bolo {
@@ -17,10 +28,12 @@ body {
 }
 
 input[type="number"] {
+    font-family: inherit;
     padding: 0.25rem 0.5rem;
     margin: 0 10px;
     width: 125px;
-    font-weight: bold;
+    font-family: inherit;
+    font-weight: 600;
     border: 1px solid #333333;
     border-radius: 5px;
     background-color: #9FE4F4;
@@ -35,11 +48,12 @@ input[type=number]::placeholder {
 }
 
 select {
-    font-weight: bold;
+    font-family: inherit;
+    font-weight: 600;
     background-color: #333333;
     color: #FFF;
     border: 1px solid black;
-    padding: .25rem;
+    padding: .23rem;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
@@ -49,10 +63,11 @@ select:hover{
 }
 
 input[type="button"] {
+    font-family: inherit;
+    font-weight: 600;
     margin: 0 5px;
     padding: 0.25rem 0.5rem;
     outline: none;
-    font-weight: bold;
     background: #333333;
     color: #FFF;
     border: 1px solid black;
@@ -70,19 +85,12 @@ input[type="button"]:active {
     color: #9FE4F4;
 }
 
-h1 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: 2.5rem;
-    letter-spacing: 1.2px;
-    color: #333333;
-    text-shadow: .5px .5px 0 #000, -.5px -.5px 0 #000, -.5px .5px 0 #000, .5px -.5px 0 #000;
-    cursor: not-allowed;
-}
 h3#x {
     margin: 25px 10px;
     font-size: 22px;
     color: #333333;
 }
+
 h3#y {
     position: absolute;
     right: 10%;
@@ -91,3 +99,64 @@ h3#y {
     align-items: center;
     min-height: 20vh;
 }
+
+.gbl {
+    color: #333333;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: not-allowed;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.gbl:hover {
+    text-shadow: 0 0 3px #000;
+    animation: rotacores .4s linear infinite;
+}
+
+@keyframes rotacores {
+    0% {
+        transform: rotate(0deg);
+        color: rgb(217, 255, 0);
+    }
+    50% {
+        transform: rotate(180deg);
+        color: rgb(255, 0, 255);
+    }
+    100%{
+        transform: rotate(360deg);
+        color: rgb(0, 255, 0);
+    }
+}
+
+/*
+
+@keyframes rotacao {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes colorido {
+    0% {
+        color: rgb(217, 255, 0);
+    }
+    25% {
+        color: rgb(255, 0, 255);
+    }
+    50% {
+        color: aqua;
+    }
+    75% {
+        color: rgb(255, 196, 0);
+    }
+    100% {
+        color: rgb(0, 255, 0);
+    }
+}
+
+*/
