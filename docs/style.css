@@ -120,9 +120,17 @@ h3#y {
         transform: rotate(0deg);
         color: rgb(217, 255, 0);
     }
+    25% {
+        transform: rotate(90deg);
+        color: rgb(255, 0, 255);
+    }
     50% {
         transform: rotate(180deg);
-        color: rgb(255, 0, 255);
+        color: aqua;
+    }
+    75% {
+        transform: rotate(270deg);
+        color: rgb(255, 196, 0);
     }
     100%{
         transform: rotate(360deg);
