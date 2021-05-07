@@ -1,7 +1,11 @@
 # Calculadora
-## HTML + CSS + JS
+## _[Link de acesso](https://gblw1.github.io/Calculadora/)_ 
 
 - [x] __*Brawlhalla style*__
+  - [x] HTML
+  - [x] CSS
+  - [x] JavaScript
+
 ---
 
   Operadores  | Simbolo
@@ -13,7 +17,7 @@ Divisão       | /
 
 ---
 
-* __Me siga__:
+* __Socials__:
    * _[Steam](https://steamcommunity.com/id/gblw1/)_
    * _[Instagram](https://www.instagram.com/gblw1/)_
    
